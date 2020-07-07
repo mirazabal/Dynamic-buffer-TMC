@@ -40,11 +40,17 @@ Redirect the packets from the kernel space to the user space through NFQUEUE wit
 
 7. sudo iptables -A INPUT -j NFQUEUE --queue-num 0
 
-Change the IP addresses, data paths and ssh password in the startExp_ping.sh and startExp_ping_impl.sh scripts
+Change the IP addresses, data paths, ssh password and scenarios as desired in the startExp_ping.sh and startExp_ping_impl.sh scripts
 
 8. sudo ./startExp_ping.sh
 
 If everything went fine, you should start traffic flowing into the 5G QoS queue emulator.
 
-Lastly, the results can be visualized through the bdp_1st.py and bdp_2nd.py
+Copy the file bdp_1st.py and bdp_2nd.py into the generated folder.
+
+9. Run: python bdp_1st.py for the first scenario and run: python bdp_2nd.py for the second scenario
+
+The dataset used for the emulation can be found at: 
+
+https://www.ucc.ie/en/misl/research/datasets/ivid_4g_lte_dataset/
 
