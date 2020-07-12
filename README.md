@@ -44,7 +44,7 @@ Change the IP addresses, data paths, ssh password and scenarios as desired in th
 
 8. sudo ./startExp_ping.sh
 
-If everything went fine, you should start traffic flowing into the 5G QoS queue emulator.
+If everything went fine, traffic should start flowing into the 5G QoS queue emulator.
 
 Copy the file bdp_1st.py and bdp_2nd.py into the generated folder.
 
