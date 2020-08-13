@@ -12,7 +12,7 @@ Download the code:
 3. sudo python compile.py
 
 
-At this moment check whether the everything compiled. If it didn't you are probably missing some dependencies. Download them.
+At this moment check whether everything compiled. If it didn't you are probably missing some dependencies. Download them.
 
 We also provide a UDP server and client in case that you want to use them.
 
